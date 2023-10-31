@@ -8,4 +8,7 @@ if os.path.exists(dotenv_path):
 
 from watchlist import app
 
+if __name__ == '__main__':
+    app.run(port=5000, debug=True)
+
 

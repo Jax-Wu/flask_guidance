@@ -40,3 +40,14 @@ def inject_user():
 
 
 from watchlist import views, errors, commands
+# from watchlist.views import index
+
+
+
+# @app.route('/')
+# def index():
+#     return 'Hello World, Jax'
+#
+#
+# if __name__ == '__main__':
+#     app.run(debug=True)
